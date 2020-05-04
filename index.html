@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">strona główna</a>
+            <a href="nauka-html.html">nauka-html</a>
+            <a href="tydzien1-html.html">tydzień I</a>
+            <a href="tydzien2-html.html">tydzień II</a>
+            <a href="tydzien3-html.html">tydzień III</a>
+        </nav>
+    </header>
+    <main>
+        <header id="top">
+            <h1 class="spanish-gray-header">Capińska Adriana - Strona domowa</h1>
+        </header>
+        <h2 class="green-header">Mój dziennik</h2>
+        <section>
+            <h3 class="green-header">Kim jestem?</h3>
+            <img src="AC.jpg" alt="uśmiechnięta Ada" />
+            <article>
+                Laikiem odnośnie programowania, poza tym fizjoterapeutą, który się trochę wypalił i szuka pomysłu
+                na
+                siebie…<br>
+                Zapisałam się na kurs <a href="https://cotenfrontend.pl">WTF</a><br>
+                <a href="#notatki">Przejdź do notatek</a>
+            </article>
+        </section>
+        <section id="notatki">
+            <h3>Notatki z WTF: CO TEN FRONTEND.</h3>
+            <article>
+                <h4 class="green-header">Tydzien I </h4>
+                <p>
+                    HTML:<br>
+                    Hypertext Markup Language<br>
+                    Odpowiada za treść strony - jej właściwe opakowanie.<br>
+                    Treści to: <br>
+                    nagłówki, linki, listy, definicje,obrazki, video, formularze oraz wszystko co jest nośnikiem
+                    informacji<br>
+                    CSS:<br>
+                    Cascading style sheets (Kaskadowe arkusze stylów) Odpowiada za prezentacje i wygląd...<br>
+                    JAVASCRIPT:<br>
+                </p>
+            </article>
+            <article>
+                <h4 class="green-header">Tydzień II</h4>
+                <h5 class="green-header">Warstwy:</h5>
+                <p>warstwa 0: treść<br>
+                    warstwa 1: semantyka html - HTML wpływa na treść (nadaje sens)<br>
+                    warstwa 2: prezentacja css - CSS wpływa na wygląd HTML<br>
+                    warstwa 3: interakcja javascript - może modyfikować wszystko + np. pobieranie danych<br>
+                    Ważne części budowania strony:<br>
+                    &lt;main> główna część dokumentu<br>
+                    &lt;section> sekcje dokumentu<br>
+                    &lt;article> samodzielne treści<br>
+                    &lt;header> nagłówek dokumentu/sekcji/artykułu<br>
+                    &lt;footer> stopka dokumentu/sekcji…<br>
+                    &lt;h1-h6> tekstowe nagłówki tytułowe dokumenty/sekcji…<br>
+                    &lt;p> paragraf/akapit<br>
+                </p>
+            </article>
+            <article>
+                <h4 class="green-header">Tydzień III</h4>
+
+                <p>HTML II<br>
+                    Budowanie strony cd:<br>
+                    &ltbr> nowa linia (dodajemy na końcu)<br>
+                    &ltb> vs &ltstrong> vs &lti> vs &ltem> Elementy do wyróżniania teksu<br>
+                    &ltb> pogrubienie<br>
+                    &lti> kursywa<br>
+                    Są bez znaczenia semantycznego
+                    &ltstrong> Podkreśla wysoką istotność i poważność frazy w niej zawartej.<br>
+                    &ltem> Podkreśla, że tekst może mieć inne znaczenie (np. ironia)<br>
+                    &lta href=””target=””> opis łącza&lt/a> <br>
+                    a - linki/ łącza wewnętrzne dokumentu i linki np googla (czyli zewnętrznie)<br>
+                    &ltelement id=”mójidentyfikator”><br>
+                    atrybut id - identyfikator, element przydaje się do nawigacji w obrębie dokumentu<br>
+                    &ltnav> nawigacja<br>
+                </p>
+            </article>
+            <article>
+                <p>
+                    Podsumowanie:<br>
+                    atrybuty są “niewidzialne” - chowamy je w znaczniku<br>
+                    nadają elementom dodatkowe właściwości (href, src)<br>
+                    pozwalają na grupowanie elementów (class)<br>
+                    pozwalają na identyfikowanie elementów (id)<br>
+                    można je miksować<br>
+                </p>
+            </article>
+            <article>
+                <p>
+                    Nazywanie rzeczy:<br>
+                    nazwy zapisujemy bez polskich znaków<br>
+                    nie używamy spacji<br>
+                    najlepiej używać angielskich słów (treść oczywiście może być w innym języku)<br>
+                    trzymamy się jednego schematu (konsekwencja jest istotna)<br>
+
+                    Konwencje nazewnictwa:<br>
+                    Konwencja camelCase<br>
+                    mySuperBoldHeader<br>
+                    Konwencja Kebab-case<br>
+                    my-super-bold-header<br>
+                    Konwencja snake_case<br>
+                    my_super_bold_header<br>
+                    Konwencja PascalCase<br>
+                    MySuperBoldHeader
+                </p>
+            </article>
+        </section>
+        <section>
+            <h3 class="green-header">Narzędzia i grupy:</h3>
+            <p>google chrome<br>
+                Visual Studio Code<br>
+                slack<br>
+                grupa na FB
+            </p>
+            <h3 class="green-header">Ścieżka rozwoju:</h3>
+            <p>stażysta/junior<br>
+                senior<br>
+                expert/ninja/wizard xD
+            </p>
+        </section>
+    </main>
+    <footer>
+        strona Adriany Capińskiej postała w celach edukacyjnych do jej własnego użytku.
+        <a href="#top">Wróć na górę strony</a>
+    </footer>
+    <script src=main.js></script>
+</body>
+
+</html>

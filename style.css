@@ -1,0 +1,37 @@
+body{
+    background: #A9927D;
+}
+section{
+    color: black;
+    background:#5E503F;
+}
+h1 {
+    color: #0A0908;
+}
+p {
+    color: #22333B;
+    background:#fefefe;
+}
+h2 {
+    color: #22333B;
+}
+h5 {
+    background:#F2F4F3;
+}
+
+.green-header{
+    color: #003E1F;
+}
+#top {
+background: #73BA9B;
+}
+
+a {
+    color: #5438DC;
+}
+nav a {
+    color: #564256;
+}
+.spanish-gray-header{
+    color: #96939B;
+}
